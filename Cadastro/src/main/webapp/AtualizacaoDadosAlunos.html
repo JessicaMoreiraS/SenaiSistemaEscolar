@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/dados_alunos_correcao.css" />
+    <title>Atualização de dados dos alunos</title>
+</head>
+<body>
+	<div class="maioral_dados">
+		<main>
+			<div class="box_esquerda_dados">
+				<h1>Atualização de dados <br />dos alunos</h1>        
+			</div>
+			<div class="box_direita_dados">
+				<div class="box_cadastro_dados">
+					<div class="box_vermelha_dados">
+						<p class="cadastre_text_dados">Atualize os dados necessários: </p>
+					</div>
+                  
+					<form action="/Cadastro/atualizarDadosAlunos" method="post">
+						<div class="inputs_dados">
+							<label>Matricula do aluno para atualizacao dos dados:</label>
+							<input type="number" name="matriculaAlunoAtualizacao">
+						
+							<label>E-mail:</label>
+							<input type="text" name="emailAlunoAtualizacao">
+							
+							<label>Telefone:</label>
+							<input type="text" name="telefoneAlunoAtualizacao">
+							
+							<label>Endereco:</label>
+							<input type="text" name="enderecoAlunoAtualizacao">
+							
+							<label>Curso:</label>
+							<input type="text" name="cursoAlunoAtualizacao">
+							
+							<label>Turma:</label>
+							<input type="text" name="turmaAlunoAtualizacao">
+							
+							<button type="submit">Atualizar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+	</div>
+	  <footer>
+          <div class="elementos_esquerda_dados">
+              <h2>
+                  <span id="span_w">W</span><span id="span_hite">HITE</span><span id="span_b">B</span><span
+                      id="span_o">O</span><span id="span_ar">AR</span><span id="span_d">D</span>
+              </h2>
+          </div>
+  </footer>
+</body>
+</html>

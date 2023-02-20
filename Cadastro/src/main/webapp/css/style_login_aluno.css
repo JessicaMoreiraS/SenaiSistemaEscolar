@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow+Semi+Condensed:wght@700&family=Open+Sans&display=swap');* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F1EFED;
+}
+
+.cabecalho{
+    background-color: #800D0D;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    height: 12.5em;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.267);
+}
+
+h1{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 520%;
+    text-shadow:  -0.07ch -0.07ch #D32F23;
+    text-align: center;
+    margin-top: -5px;
+   
+}
+
+#span_p{
+    color: #158962;
+}
+
+#span_or{
+    color: #DAF7EC;
+}
+
+#span_tal{
+    color: #158962;
+}
+
+#span_ed{
+    color: #FF3847;
+}
+
+#span_uca{
+    color: #DAF7EC;
+}
+
+#span_c{
+    color: #158962;
+}
+
+#span_i{
+    color: #DAF7EC;
+}
+
+#span_onal{
+    color: #DFBB00;
+}
+
+
+
+.box{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.8em;
+    padding: 5%;
+}
+
+.email, .senha{
+    font-size: 0.7em;
+    color: #000;
+   
+}
+
+.user{
+    width: 7%;
+}
+
+.primeiro_input{
+    margin-top: 4%;  
+}
+
+input{
+    background-color: #fff;
+    box-shadow: 000;
+    border: none;
+    outline: 0;
+    width: 80%;
+    height: 30px; 
+    display: flex;
+    margin-top: 1%;
+    margin-right: 300px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.quadrado{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 160%;
+    font-weight: 600;
+    border-radius:8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 2%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.underline{
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2)
+    
+}
+
+.icon_user{
+    height: 3%;
+    width: 3%;
+}
+
+.icon_block{
+    height: 3%;
+    width: 1.9%;
+    display: flex;
+    justify-content: left;
+}
+
+.itens_email{
+    display: flex;
+    justify-content: left;
+    gap: 1%;
+}
+
+.itens_senha{
+    margin-top: 3%;
+    display: flex;
+    justify-content: left;
+    gap: 1.2%;
+}
+
+.btn{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 85%;
+    gap: 260px;
+}
+
+button{
+    background: #800D0D;
+    border-radius: 4px;
+    height: 122%;
+    width: 550%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1em;
+    color: #F1EFED;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #b92431;
+    transition: 2s;
+}
+
+button:hover:after { 
+    content:''; 
+    font-size:1.1em; 
+    
+}
+
+#criar_conta, #clique_aqui{
+    color: #800D0D;
+}
+
+.acesso{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    gap: 2%;
+}
+
+#img_grande{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -252px;
+
+}
+
+footer{
+    margin-top: -82px;
+}
+
+
+    
+

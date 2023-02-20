@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/cadastro-de-notas.css">
+<title>Cadastro de materia</title>
+</head>
+<body>
+	<header>
+        <h1>Cadastrar curso</h1>
+    </header>
+    <main>
+    	<div id="caixa-central-1">
+            <div id="linha-verde"></div>
+            <div id="conteudo-1">
+                <h2>CADASTRE CURSOS E MATÉRIAS</h2>
+            </div>
+				<form action="/Cadastro/cadastrarMaterias" method="post">
+					<div id="alinhar-2-3">
+		                <div id="conteudo-2">
+							<label>Curso:</label>
+							<input class="inputs" type="text" name="curso">
+							
+							<label>Materia:</label>
+							<input class="inputs" type="text" name="materia">
+						</div>
+                		<div id="conteudo-3">
+							<label>Número de criterios criticos:</label>
+							<input type="number" name="nCriteriosCriticos">
+							
+							<label>Número de criterios desejaveis:</label>
+							<input class="inputs" type="number" name="nCriteriosDesejaveis">
+						</div>
+            		</div>
+				<button type="submit">Cadastrar Criterios</button>
+			</form>
+		</div>
+	</main>
+	<footer>
+        <a href="homeGestor.html">
+            <img class="retorno" src="img/back.png" alt="">
+        </a>
+    </footer>
+</body>
+</html>

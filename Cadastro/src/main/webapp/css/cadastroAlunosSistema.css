@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Bebas+Neue&family=Inter&family=Open+Sans:wght@300;400&family=Ruda:wght@400;500;800&family=Ubuntu:wght@500;700&display=swap');
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+}
+
+.box_esquerda{
+    background-color: #158962;
+    height: 100vh;
+    width: 35vw;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+span{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#span_w{
+    color: #158962;
+}
+
+#span_hite{
+    color: #DAF7EC;
+}
+
+#span_b{
+    color: #FF3847;
+}
+
+#span_o{
+    color: #158962;
+}
+
+#span_ar{
+    color: #E6830F;
+}
+
+#span_d{
+    color: #FF3847;
+}
+
+.box_direita{
+    height: 100vh;
+    width: 100%;
+}
+ .box_cadastro{
+    border: 1px solid #fff;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.233);
+}
+
+.box_vermelha{
+    margin-top: -35px;
+    background-color: #80100F;
+    width: 100%;
+    height: 13%;
+    border-radius: 20px 20px 1px 1px;
+} 
+
+p{
+    padding-top: 2%;
+    color: #F4F4F4;
+    font-family: 'Ruda', sans-serif;
+    text-align: center;
+    font-size: 100%;
+}
+
+button{
+    font-family: 'Ruda', sans-serif;
+    color: #F4F4F4;
+    font-size: 120%;
+    margin-top: 6%;
+    margin-left: 22%;
+    background-color: #158962;
+    border: none;
+    border-radius: 2px;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.233);
+}
+
+button:hover{
+    background-color: #157c58;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.233);
+    transition: 0.8s;
+
+}
+
+.imagem_unica{
+    padding-top: 13.2em;
+    max-width: 100%;
+    
+}
+
+.elementos_esquerda{
+    display: flex;
+    justify-content: left;
+    
+}
+
+.footerzinho{
+    box-sizing: border-box;
+    background-color: #80100F;
+    
+}
+
+h2{
+    font-size: 140%;
+    margin-left: 2%;
+    text-shadow: 6px 9px 6px 9px #FF3847;
+}
+
+footer{
+    background-color: #80100F;
+}
+
+.logo{
+    width: 17%;
+    height: 15%;
+    margin-left: 109%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    
+}
+
+input{
+    height: 30px;
+    width: 50%;
+    background-color: #F4F4F4;
+    border: 1px solid #F4F4F4;
+    border-radius: 6px;
+    outline: none;
+    font-family: 'Ruda',sans-serif;
+}
+
+.cadastre_text{
+    padding-bottom: 2%;
+    font-size: 200%;
+}
+
+label{
+    padding: 0.5em;
+    font-family: 'Ruda', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    
+}

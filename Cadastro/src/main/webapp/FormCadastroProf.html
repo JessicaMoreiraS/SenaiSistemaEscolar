@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastroAlunosSistema.css">
+    <title>Cadastro de Professores</title>
+</head>
+
+<body>
+    <main>
+        <div class="box_esquerda">
+            <h1>Cadastro de<br />Professores</h1>
+            <img class="imagem_unica" src="img_cadastro_sistema/system.png" alt="" />
+        </div>
+        <div class="box_direita">
+            <form action="/Cadastro/cadastrarProf" method="post">
+                <div class="box_cadastro">
+                    <div class="box_vermelha">
+                        <p class="cadastre_text">Cadastre os professores no sistema!</p>
+                    </div>
+
+                    <div class="inputs">
+                        	<!--<form action="/Cadastro/Listagem.jsp" method="post">-->
+                        
+                            <label>Nome:</label>
+                            <input type="text" name="nomeProfessor" />
+                            <label>CPF:</label>
+                            <input type="text" name="cpfProfessor" />
+                            <label>Curso:</label>
+                            <input type="text" name="curso" />
+                            <label>Matéria:</label>
+                            <input type="text" name="materia" />
+                            <label>Endereço:</label>
+                            <input type="text" name="enderecoProfessor" />
+                            <label>Telefone:</label>
+                            <input type="text" name="telefoneProfessor" />
+                            <label>E-mail:</label>
+                            <input type="text" name="emailProfessor" />
+                            <label>Senha de acesso:</label>
+                            <input type="password" name="senhaProfessor">
+                        
+
+
+                        <!--</form>-->
+                    </div>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="elementos_esquerda">
+            <h2>
+                <span id="span_w">W</span><span id="span_hite">HITE</span><span id="span_b">B</span><span
+                    id="span_o">O</span><span id="span_ar">AR</span><span id="span_d">D</span>
+            </h2>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_login_aluno.css">
+    <title>Login Área do Professor</title>
+</head>
+<body>
+	<header class="cabecalho">
+    	<h1>
+          <span id="span_p">P</span><span id="span_or">OR</span
+          ><span id="span_tal">TAL</span><br /><span id="span_ed">ED</span
+          ><span id="span_uca">UCA</span><span id="span_c">C</span
+          ><span id="span_i">I</span><span id="span_onal">ONAL</span>
+        </h1>
+    </header>
+	
+	<!--<form action="/Cadastro/buscarProf" method="post">
+		<input type="email" name="emailAcessoProf">
+		<input type="password" name="senha">
+		<button type="submit">Entrar</button>
+	</form>-->
+	
+	
+	<main>
+		<div class="quadrado">
+			<p><b>Faça login abaixo para acessar a área do Gestor</b></p>
+			
+  			<form action="/Cadastro/buscarGestor" method="post">
+				
+				<div class="ultimo_input">
+					<div class="itens_senha">
+					<img class="icon_block" src="img/management.png">
+					<p class="senha"><b><i>Senha:</i></b></p>
+					</div>
+					<input type="password" name="senhaAcessoGestor" id="password">
+					<div class="underline"></div>
+				</div>
+				
+				<div class="btn">
+					<a href="">
+						<button class="customizar_btn"><b><i>Entrar</i></b></button>
+					</a>
+				</div>
+				
+			</form>
+			
+			<div class="acesso">
+				<p>Não consegue acessar?</p>
+				<a style="text-decoration: none;" href="/recuperar_conta.html" id="clique_aqui">
+					Clique aqui
+				</a>
+			</div>
+			
+		</div>
+	</main>
+		
+	<div id="img_grande">
+		<img class="logo" width="450" src="img_login_aluno/2.png" alt="">
+	</div>
+		
+	<footer>
+		<img class="img_aluno" width="100" src="img_login_aluno/logo.png" alt="">
+	</footer>     
+</body>
+</html>

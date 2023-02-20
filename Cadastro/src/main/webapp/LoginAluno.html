@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style_login_aluno.css" />
+  <title>Login Área do Aluno</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <h1>
+      <span id="span_p">P</span><span id="span_or">OR</span><span id="span_tal">TAL</span><br /><span
+        id="span_ed">ED</span><span id="span_uca">UCA</span><span id="span_c">C</span><span id="span_i">I</span><span
+        id="span_onal">ONAL</span>
+    </h1>
+  </header>
+  
+	 <main>
+      <div class="quadrado">
+
+        <p><b>Faça login abaixo para acessar a área do aluno</b></p>
+
+        <div class="primeiro_input">
+          <div class="itens_email">
+            <img class="icon_user" src="img_login_aluno/user-plus-solid.svg"/>
+            <p class="email"><b><i>E-mail:</i></b></p>
+          </div>
+	<form action="/Cadastro/buscarAluno" method="post">
+          <div class="inputtt">
+            <input type="email" name="emailAcessoAluno" id="email"required/>
+            <div class="underline"></div>
+          </div>
+          <div class="ultimo_input">
+            <div class="itens_senha">
+              <img class="icon_block" src="img_login_aluno/lock-solid.svg">
+              <p class="senha"><b><i>Senha:</i></b></p>
+            </div>
+            <input type="password" name="senhaAcessoAluno" id="password">
+            <div class="underline"></div>
+          </div>
+          <div class="btn">
+            <a href="">
+              <button class="customizar_btn"><b><i>Entrar</i></b></button>
+            </a>
+            <div class="criar_conta">
+              <a style="text-decoration: none;" href="">
+                <p id="criar_conta"><i>CRIAR UMA CONTA</i></p>
+              </a>
+            </div>
+          </div>
+	</form>
+          <div class="acesso">
+            <p>Não consegue acessar?</p>
+            <a style="text-decoration: none;" href="recuperar_conta.html">
+             <p id="clique_aqui">Clique aqui</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+	
+	<div id="img_grande">
+      <img class="logo" width="480" src="img_login_aluno/1.png" alt="">
+    </div>
+	
+	 <footer>
+    <img class="img_aluno" width="100" src="img_login_aluno/logo.png" alt="">
+  </footer>
+</body>
+
+</body>
+</html>

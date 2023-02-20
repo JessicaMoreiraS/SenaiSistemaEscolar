@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/cadastroAlunosSistema.css" />
+
+<title>Cadastro de Alunos</title>
+</head>
+<body>
+	<main>
+		<div class="box_esquerda">
+			<h1>Cadastro de<br />Alunos</h1>
+			<img class="imagem_unica" src="img_cadastro_sistema/system.png" alt="" />
+		</div>
+		<div class="box_direita">
+		<form action="/Cadastro/cadastrar" method="post">
+			<div class="box_cadastro">
+				<div class="box_vermelha">
+					<p class="cadastre_text">Cadastre os alunos no sistema!</p>
+				</div>
+				
+				<div class="inputs">
+					<!--<form action="/Cadastro/cadastrar" method="post">-->
+					<!--<form action="/Cadastro/Listagem.jsp" method="post">-->
+						
+						<label>Nome:</label>
+			            <input type="text" name="nome"/>
+			            <label>Matrícula:</label>
+			            <input type="number" name="matricula"/>
+			            <label>E-mail:</label>
+			            <input type="text" name="email"/>
+			            <label>Senha de acesso:</label>
+			            <input type="password" name="senha"/>
+			            <label>CPF:</label>
+			            <input type="text" name="cpf"/>
+			            <label>Telefone:</label>
+			            <input type="text" name="telefone"/>
+			            <label>Endereço:</label>
+			            <input type="text" name="endereco"/>
+			            <label>Curso:</label>
+			            <input type="text" name="curso"/>
+			            <label>Turma:</label>
+			            <input type="text" name="turma">
+						
+						
+					<!--</form>-->
+				</div>
+			</div>
+			<button type="submit">Enviar</button>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<div class="elementos_esquerda">
+			<h2>
+				<span id="span_w">W</span><span id="span_hite">HITE</span><span id="span_b">B</span><span
+            	id="span_o">O</span><span id="span_ar">AR</span><span id="span_d">D</span>
+			</h2>
+		</div>
+  	</footer>
+</body>
+</html>
