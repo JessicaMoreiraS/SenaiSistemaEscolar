@@ -11,3 +11,7 @@ projeto desenvolvido utilizando Apache Tomcat 9.0.65 no Eclipse IDE
   <img src="https://user-images.githubusercontent.com/100448388/227601619-f24e8fb8-23c3-4f69-9c17-ad190e2ddf7a.png" width="30%">
   <img src="https://user-images.githubusercontent.com/100448388/227601699-08566012-6bea-4425-8a0f-9fb48dcf6e70.png" width="30%">
 <div>
+
+<div aling="center">
+  <p>A pagina do gestor dá acesso a home de gerenciamento geral, que permite o cadastro de: Matérias, Professores e Alunos, bem como a visualização dos dados cadastrados e a alteração de dados dos alunos</p>
+  <img src="">
