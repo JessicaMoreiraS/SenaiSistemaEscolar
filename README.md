@@ -23,9 +23,6 @@ projeto desenvolvido utilizando Apache Tomcat 9.0.65 no Eclipse IDE
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/100448388/236591940-bd7495de-dd9a-4f0e-b455-1ed9348909aa.png" width="50%">
-  
-  <img src="https://user-images.githubusercontent.com/100448388/236592266-3ae3aa77-c500-4a97-984b-70ead689c05f.png" width="50%">
   <img src="https://user-images.githubusercontent.com/100448388/236592368-b59735d4-423c-4957-9e1d-d003a8f0bbb1.png" width="50%">
   
   <img src="https://user-images.githubusercontent.com/100448388/236592839-67f7ceaf-4ca3-411c-acc4-2f2509470616.png" width="50%">
