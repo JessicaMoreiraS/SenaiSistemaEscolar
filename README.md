@@ -21,12 +21,16 @@ projeto desenvolvido utilizando Apache Tomcat 9.0.65 no Eclipse IDE
   <img src="https://user-images.githubusercontent.com/100448388/236592037-466b878c-767d-4db6-bf29-7a7744d49801.png" width="49%">
   <img src="https://user-images.githubusercontent.com/100448388/236592591-f28bf3a7-9ac5-42c9-a58d-cf0a86bbf345.png" width="49%">
 </div>
+  
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/100448388/236592368-b59735d4-423c-4957-9e1d-d003a8f0bbb1.png" width="49%">
+  <img src="https://user-images.githubusercontent.com/100448388/236592865-c20acb24-8ad4-4139-9314-c239d85a355a.png" width="49%">
+  
+</div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/100448388/236592368-b59735d4-423c-4957-9e1d-d003a8f0bbb1.png" width="50%">
   
   <img src="https://user-images.githubusercontent.com/100448388/236592839-67f7ceaf-4ca3-411c-acc4-2f2509470616.png" width="50%">
-  <img src="https://user-images.githubusercontent.com/100448388/236592865-c20acb24-8ad4-4139-9314-c239d85a355a.png" width="50%">
   <img src="https://user-images.githubusercontent.com/100448388/236592946-0ef73c9a-45ff-4303-920b-554b463833cb.png" width="50%">
   <img src="https://user-images.githubusercontent.com/100448388/236593100-41de4f6f-6434-4ef4-b395-62ca2e169faf.png" width="50%">
   <img src="https://user-images.githubusercontent.com/100448388/236593182-415c9234-128e-4ccf-a058-a392cf802530.png" width="50%">
